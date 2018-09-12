@@ -3,7 +3,7 @@ node_js:
   - "stable"
 cache:
   directories:
-    - node_modules
+  - node_modules
 script:
   - npm test
   - npm run build
@@ -12,5 +12,5 @@ deploy:
   skip_cleanup: true
   domain: jotto-wendy.surge.sh
   project: ./build/
-on:
-  branch: master
+  on:
+    branch: master
