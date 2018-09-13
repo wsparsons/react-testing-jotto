@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && echo jotto-wendy.surge.sh > build/CNAME && surge build && open -a 'Google Chrome' http://jotto-wendy.surge.sh",
+    "build": "react-scripts build",
+    "surge": "echo jotto-wendy.surge.sh > build/CNAME && surge build && open -a 'Google Chrome' http://jotto-wendy.surge.sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
