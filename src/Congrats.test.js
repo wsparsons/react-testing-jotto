@@ -15,7 +15,7 @@ const defaultProps = { success: false }
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
-  return shallow(<Congrats {...setupProps} />);
+  return shallow(< Congrats {...setupProps} />);
 };
 
 test("renders without error", () => {
